@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 2vh;
+  background-color: #fff;
+  box-shadow: 0vh 0.3vw 0.6vh 0vw #6674cc36;
+  border-top-left-radius: 5vw;
+}
+
+.heading {
+  margin-left: 40%;
+}
+
+.title {
+  display: inline;
+  padding: 2vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+  margin-bottom: 1vh;
+}
+
+.title > span {
+  color: #6674cc;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+
+.take-note {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5vh 5vw;
+}
+
+.note-form {
+  width: auto;
+  padding-top: 4vh 4vw;
+  border-radius: 1vh;
+  box-shadow: 0.2vw 0.2vw 0.2vw 0.2vw #6674cc36;
+  height: 20vh;
+}
+
+.text-input {
+  display: block;
+  padding: 0.5vh;
+  margin: 2vh;
+  width: 20vw;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 0.5vw;
+}
+
+.text-input:focus {
+  outline: none;
+  border-bottom: 0.2vh solid #6674cc4f;
+  border-right: 0.2vh solid #6674cc4f;
+}
+
+.reset-button {
+  background-color: greenyellow;
+}
+
+.add-button {
+  background-color: #6674cc4f;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: auto;
+  margin: 0vw 1vw;
+  padding: 0.2vw;
+  border-radius: 1vw;
+  width: auto;
+  left: 50%;
+}
+
+.note-container {
+  display: flex;
+  flex-direction: rows;
+  flex-wrap: wrap;
+  justify-content: safe center;
+}
+
+.note {
+  padding: 2%;
+  margin: 2%;
+  size: 2rem;
+  min-width: 250px;
+  height: 30vh;
+  background-color: #6674cc36;
+  border-radius: 10% 0 10% 0;
+  box-shadow: 0.5em 0.2em #343a66;
+}
+
+.prop-title {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+  color: aliceblue;
+  text-shadow: 0 0 4px black;
+}
+
+.note > p {
+  color: #343a66;
+  font-size: 1.5rem;
+  text-overflow: ellipsis;
+}
